@@ -1,3 +1,4 @@
+<script src="https://maps.googleapis.com/maps/api/js?libraries=geometry,places&key=AIzaSyA63tWbsVDsOfpBtJd26di0VMVNapsp6ro"></script>
 <template>
   <div id="app">
     <div class="container">
@@ -7,8 +8,6 @@
         <p class="lead">Below is a simple web application made by: Sergio Lio for LaLaFood Front-End Developer Technical test. This allows user to submit pickup-point address and another input for drop-off point address. Google Map API was used. After submit waypoints will be display on the map itself.</p>
       </div>
       <main>
-        <!-- <Map />
-        <UserInput /> -->
         <Places />
       </main>
     </div>
@@ -16,15 +15,11 @@
 </template>
 <script>
 
-// import Map from './components/Map.vue'
-// import UserInput from './components/UserInput.vue'
 import Places from './components/Places.vue'
 
 export default {
   name: 'App',
   components: {
-    // Map,
-    // UserInput
     Places
   }
 }

@@ -65,7 +65,7 @@
         </div>
     </div>
 </template>
-<script src="https://maps.googleapis.com/maps/api/js?libraries=geometry,places&key=AIzaSyA63tWbsVDsOfpBtJd26di0VMVNapsp6ro"></script>
+<script src="https://maps.googleapis.com/maps/api/js?libraries=geometry,places&key={YOUR KEY}"></script>
 <script>
 import axios from "axios";
 
@@ -184,7 +184,7 @@ export default {
             const req = {
                 headers: { 'Content-Type': 'application/json' },
             };
-            const data = { origin : "Innocentre, Tat Chee Avenue, Kowloon Tong, Hong Kong", destination: "Hong Kong International Airport, Sky Plaza Road, Chek Lap Kok, Hong Kong" };
+            const data = { origin : this.route.origin.address, destination: this.route.destination.address };
             axios.post('https://mock-api.dev.lalamove.com/route', data, { req })
                 .then(response => {
                     this.token = response.data.token;
@@ -244,7 +244,7 @@ export default {
     background-color: #f57c00;
     color: #ffffff;
 }
-.txt-lala{
+.text-lala{
     color: #f57c00;
 }
 </style>

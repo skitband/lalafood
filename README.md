@@ -2,6 +2,12 @@
 
 ## Project setup
 ```
+kindly put your API Key. Look for Places.vue component edit the script
+<script src="https://maps.googleapis.com/maps/api/js?libraries=geometry,places&key={YOUR KEY}"></script>
+```
+
+## Project setup
+```
 npm install
 ```
 
