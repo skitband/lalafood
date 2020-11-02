@@ -8,8 +8,16 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "vue": "^2.6.11",
+    "vue-browser-geolocation": "^1.8.0",
+    "vue-google-autocomplete": "^1.1.0",
+    "vue2-google-maps": "^0.10.7",
+    "vuemit": "^1.0.9"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
