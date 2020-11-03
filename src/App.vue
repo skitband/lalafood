@@ -1,4 +1,3 @@
-<script src="https://maps.googleapis.com/maps/api/js?libraries=geometry,places&key=AIzaSyA63tWbsVDsOfpBtJd26di0VMVNapsp6ro"></script>
 <template>
   <div id="app">
     <div class="container">
